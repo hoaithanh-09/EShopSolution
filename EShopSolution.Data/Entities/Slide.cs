@@ -5,7 +5,7 @@ using System.Text;
 
 namespace EShopSolution.Data.Entities
 {
-    class Slide
+    public class Slide
     {
         public int Id { set; get; }
         public string Name { set; get; }

@@ -30,6 +30,11 @@ namespace EShopSolution.Data.EF
         public DbSet<ProductTranslation> ProductTranslations { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<AppConfig> AppConfigs { get; set; }
+        public DbSet<Slide> Slides { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
+
+
+
 
     
     }
