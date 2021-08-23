@@ -15,7 +15,7 @@ namespace EShopSolution.Data.Entities
 
         public bool? IsFeatured { get; set; }
 
-        /*public List<ProductInCategory> ProductInCategories { get; set; }
+        public List<ProductInCategory> ProductInCategories { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
 
@@ -23,6 +23,6 @@ namespace EShopSolution.Data.Entities
 
         public List<ProductTranslation> ProductTranslations { get; set; }
 
-        public List<ProductImage> ProductImages { get; set; }*/
+        public List<ProductImage> ProductImages { get; set; }
     }
 }
