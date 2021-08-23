@@ -32,6 +32,8 @@ namespace EShopSolution.Data.EF
         public DbSet<AppConfig> AppConfigs { get; set; }
         public DbSet<Slide> Slides { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<ProductInCategory> ProductInCategories{ get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
 
 
 
